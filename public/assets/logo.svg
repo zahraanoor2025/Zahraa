@@ -1,0 +1,39 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradPrimary" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00BCD4" />
+      <stop offset="100%" stop-color="#1F1B4D" />
+    </linearGradient>
+    <linearGradient id="gradAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF7A59" />
+      <stop offset="100%" stop-color="#F9A826" />
+    </linearGradient>
+    <clipPath id="clipRounded">
+      <rect width="120" height="120" rx="28" ry="28" />
+    </clipPath>
+  </defs>
+  <g clip-path="url(#clipRounded)">
+    <rect width="120" height="120" fill="#0B0F29" />
+    <circle cx="28" cy="92" r="56" fill="url(#gradPrimary)" opacity="0.4" />
+    <circle cx="104" cy="18" r="42" fill="url(#gradAccent)" opacity="0.45" />
+    <path
+      d="M33 80C33 61.2224 48.2224 46 67 46C85.7776 46 101 61.2224 101 80V94H89V80C89 67.2975 79.7025 58 67 58C54.2975 58 45 67.2975 45 80V94H33V80Z"
+      fill="#F8FAFC"
+      opacity="0.85"
+    />
+    <path
+      d="M61 86C61 82.6863 63.6863 80 67 80C70.3137 80 73 82.6863 73 86C73 89.3137 70.3137 92 67 92C63.6863 92 61 89.3137 61 86Z"
+      fill="#F8FAFC"
+    />
+    <path
+      d="M32 30C32 23.3726 37.3726 18 44 18H56.5C63.1274 18 68.5 23.3726 68.5 30C68.5 36.6274 63.1274 42 56.5 42H52V52H40V30H32Z"
+      fill="#F8FAFC"
+      opacity="0.82"
+    />
+    <path
+      d="M73 30H85L91.5 52H80.2L79 46.8H72.8L71.6 52H60.5L67 30H73Z"
+      fill="#F8FAFC"
+      opacity="0.9"
+    />
+  </g>
+</svg>
