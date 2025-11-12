@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>تجربة برزنتيّن مستوحاة من Kalam</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../src/styles/main.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-content">
+        <div class="brand">
+          <img src="./assets/logo.svg" alt="Kalam Inspired Logo" class="brand__logo" />
+          <div class="brand__text">
+            <span class="brand__title">Kalam Inspired</span>
+            <span class="brand__tagline">عرضان جذّابان في مكان واحد</span>
+          </div>
+        </div>
+        <nav class="main-nav" aria-label="التنقل الرئيسي">
+          <ul>
+            <li><a href="#presentation-one">البرزنتيشن الأول</a></li>
+            <li><a href="#presentation-two">البرزنتيشن الثاني</a></li>
+          </ul>
+        </nav>
+        <button class="theme-toggle" id="themeToggle" type="button" aria-pressed="false">
+          <span class="theme-toggle__icon" aria-hidden="true"></span>
+          <span class="theme-toggle__label">وضع الليل</span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section id="hero" class="hero">
+        <div class="container hero__content">
+          <div class="hero__copy">
+            <h1>صمّم برزنتيشنك بلغة مرئية عصرية</h1>
+            <p>
+              هذا التطبيق يقدّم لك مثالين متكاملين لبرزنتيشنين مستوحاة من هوية Kalam.
+              الألوان والعناصر صُمّمت لتدعم سردك، مع إمكانية التبديل بين الوضع النهاري والليلي.
+            </p>
+            <div class="hero__actions">
+              <a class="btn btn--primary" href="#presentation-one">استعرض الآن</a>
+              <a class="btn btn--ghost" href="#guidelines">تعرف على الهوية البصرية</a>
+            </div>
+          </div>
+          <div class="hero__preview" role="presentation">
+            <div class="preview-card">
+              <div class="preview-card__header">عرض الشرائح</div>
+              <div class="preview-card__body">
+                <div class="preview-card__slide preview-card__slide--one">عرض 1</div>
+                <div class="preview-card__slide preview-card__slide--two">عرض 2</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="presentation-one" class="presentation presentation--primary" aria-labelledby="presentation-one-title">
+        <div class="container">
+          <div class="presentation__header">
+            <span class="presentation__badge">01</span>
+            <h2 id="presentation-one-title">البرزنتيشن الأول: إطلاق منتج رقمي</h2>
+          </div>
+          <div class="presentation__grid">
+            <article class="presentation__card">
+              <h3>الشريحة الافتتاحية</h3>
+              <p>
+                استخدم صورة بطل واضحة مع عنوان قوي يعبّر عن القيمة الأساسية للمنتج. تأكد من
+                وجود مساحة بيضاء كافية حول المحتوى لإبراز الرسالة.
+              </p>
+            </article>
+            <article class="presentation__card">
+              <h3>النقاط المحورية</h3>
+              <ul>
+                <li>قدّم ثلاث مزايا رئيسية مختصرة ومباشرة.</li>
+                <li>استخدم أيقونات خطية بلون ثانوي لدعم القراءة البصرية.</li>
+                <li>اختم دعوة للإجراء واضحة تشجّع على التواصل أو التجربة.</li>
+              </ul>
+            </article>
+            <aside class="presentation__aside">
+              <h3>نصيحة تصميم</h3>
+              <p>
+                لتحقيق تباين مثالي، استخدم الخلفية الداكنة مع نص فاتح في الشرائح الرئيسة،
+                مع الحفاظ على نفس الدرجات اللونية للشعار لإثبات الهوية.
+              </p>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <section id="presentation-two" class="presentation presentation--secondary" aria-labelledby="presentation-two-title">
+        <div class="container">
+          <div class="presentation__header">
+            <span class="presentation__badge">02</span>
+            <h2 id="presentation-two-title">البرزنتيشن الثاني: تقرير أداء سنوي</h2>
+          </div>
+          <div class="presentation__grid presentation__grid--reverse">
+            <article class="presentation__card">
+              <h3>لوحة الأرقام</h3>
+              <p>
+                اعرض الأرقام البارزة في بطاقات متوازنة. استخدم اللون الأساسي للعناوين واللون
+                الفاتح للأرقام الكبيرة لإبراز النمو أو النجاح.
+              </p>
+              <div class="stats">
+                <div class="stat">
+                  <span class="stat__value">+42%</span>
+                  <span class="stat__label">نمو المستخدمين</span>
+                </div>
+                <div class="stat">
+                  <span class="stat__value">98%</span>
+                  <span class="stat__label">رضا العملاء</span>
+                </div>
+                <div class="stat">
+                  <span class="stat__value">76</span>
+                  <span class="stat__label">مشروعًا مكتملًا</span>
+                </div>
+              </div>
+            </article>
+            <article class="presentation__card">
+              <h3>سرد القصة</h3>
+              <p>
+                خصّص شرائح متتابعة لسرد قصة نجاحك من خلال التسلسل: التحدي، الحل، النتيجة.
+                حافظ على تناغم الخلفيات والرموز مع الهوية اللونية.
+              </p>
+            </article>
+            <aside class="presentation__aside">
+              <h3>نصيحة تصميم</h3>
+              <p>
+                أضف صور الفريق أو اقتباسات العملاء على خلفيات محايدة مستوحاة من لوحة Kalam
+                لإضفاء شعور بالثقة والإنسانية.
+              </p>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <section id="guidelines" class="guidelines" aria-labelledby="guidelines-title">
+        <div class="container">
+          <h2 id="guidelines-title">لوحة الألوان والهوية</h2>
+          <div class="guidelines__grid">
+            <div class="palette">
+              <h3>لوحة الألوان</h3>
+              <ul>
+                <li><span class="swatch swatch--primary"></span><span class="swatch__label">Primary</span></li>
+                <li><span class="swatch swatch--secondary"></span><span class="swatch__label">Secondary</span></li>
+                <li><span class="swatch swatch--accent"></span><span class="swatch__label">Accent</span></li>
+                <li><span class="swatch swatch--neutral"></span><span class="swatch__label">Neutral</span></li>
+              </ul>
+            </div>
+            <div class="guidelines__copy">
+              <p>
+                تم استخراج هذه الألوان من الهوية العامة لـ Kalam بناءً على المعاينة المتاحة.
+                يرجى التحقق من القيم الرسمية من فريق التصميم الخاص بكم لاستيفاء جميع معايير العلامة التجارية.
+              </p>
+              <p>
+                يمكنك تحديث ملف <code>src/styles/tokens.css</code> لتعديل الألوان أو إضافة درجات أخرى حسب الحاجة.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span id="currentYear"></span> Kalam Inspired Demo. جميع الحقوق محفوظة.</p>
+      </div>
+    </footer>
+
+    <script src="../src/scripts/app.js" type="module"></script>
+  </body>
+</html>
